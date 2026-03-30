@@ -1,9 +1,10 @@
 ---
 title: 机器学习与人生
-published: 1970-01-01
-tags: [Markdown, 博客, 演示]
-category: 文章示例
+published: 2026-03-30
+tags: [Personal]
+category: 随笔
 draft: false
+image: ./images/ml.avif
 ---
 
 
