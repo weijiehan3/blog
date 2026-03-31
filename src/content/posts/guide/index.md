@@ -1,12 +1,11 @@
 ---
 title: Firefly 简单使用指南
 published: 1970-01-02
-pinned: true
+pinned: false
 description: "如何使用 Firefly 博客模板。"
-image: "./cover.avif"
 tags: ["Firefly", "博客", "Markdown", "使用指南"]
 category: 博客指南
-draft: false
+draft: true
 ---
 
 
@@ -26,9 +25,6 @@ category: 前端开发
 draft: false
 ---
 ```
-
-
-
 
 | 属性          | 描述                                                                                                                                                                                                 |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -72,17 +68,20 @@ Slug 是文章 URL 路径的自定义部分。如果不设置 slug，系统将�
 ### Slug 使用示例
 
 #### 示例 1：使用文件名作为 URL
+
 ```yaml
 ---
 title: 我的第一篇博客文章
 published: 2023-09-09
 ---
 ```
+
 文件：`src/content/posts/my-first-blog-post.md`
 
 URL：`/posts/my-first-blog-post`
 
 #### 示例 2：自定义 Slug
+
 ```yaml
 ---
 title: 我的第一篇博客文章
@@ -90,11 +89,13 @@ published: 2023-09-09
 slug: hello-world
 ---
 ```
+
 文件：`src/content/posts/my-first-blog-post.md`
 
 URL：`/posts/hello-world`
 
 #### 示例 3：其他语言文件名使用Slug
+
 ```yaml
 ---
 title: 如何使用 Firefly 博客主题
@@ -102,6 +103,7 @@ published: 2023-09-09
 slug: how-to-use-firefly-blog-theme
 ---
 ```
+
 文件：`src/content/posts/如何使用Firefly博客主题.md`
 
 URL：`/posts/how-to-use-firefly-blog-theme`

@@ -1,5 +1,5 @@
 ---
-title: cloudflare部署个人博客
+title: Cloudflare部署个人博客
 published: 2026-03-31
 tags: [Personal]
 category: 随笔
@@ -8,9 +8,7 @@ image: ./images/firefly3.avif
 ---
 
 
-# 从 Astro 到 Cloudflare Workers：把个人博客部署上线，并绑定自己的域名
-
-> [!ABSTRACT] 写在前面
+> [!abstract] 写在前面
 > 为什么想部署个人博客呢？可能是因为obsidian的移动端体验太差，也可能就是单纯的想折腾一下，总之呢，就是想拥有一个属于自己的"狗窝"来记录一下自己的想法或者随笔吧。
 
 ## Astro模板选择以及本地部署
@@ -64,7 +62,7 @@ NODE_VERSION = "22"
 
 在部署成果以后，可以先确认 Cloudflare 分配的域名 `*.workers.dev` 是否可以正常访问博客。也就是说，部署完成后，你应该先验证：
 
-```net
+```
 https://你的worker名.你的subdomain.workers.dev
 ```
 

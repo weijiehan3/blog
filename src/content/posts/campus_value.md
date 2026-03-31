@@ -1,5 +1,5 @@
 ---
-title: cloudflare部署个人博客
+title: 大学的价值
 published: 2026-03-31
 tags: [Personal]
 category: 随笔
